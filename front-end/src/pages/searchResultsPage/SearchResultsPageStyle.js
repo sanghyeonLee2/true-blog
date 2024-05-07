@@ -5,14 +5,6 @@ export const SearchResultsPageContainer = styled.div`
   justify-content: center;
 `
 
-
-export const SearchResultsPageSearchBox = styled.div`
-  background-color: darkgray;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`
 export const SearchResultsContentsContainer= styled.div`
   display: flex;
   justify-content: space-around;
