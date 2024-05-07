@@ -4,11 +4,11 @@ import Footer from "./ui/footer/Footer";
 
 function App() {
   return (
-    <div className="App">
+      <>
       <Header/>
       <Outlet/>
       <Footer/>
-    </div>
+      </>
   );
 }
 
