@@ -2,15 +2,17 @@ import React from 'react';
 import {
     SearchResultContent,
     SearchResultsContentsContainer,
-    SearchResultsPageContainer, SearchResultsPageSearchBox
+    SearchResultsPageContainer,
 } from "./SearchResultsPageStyle";
+import {SearchBoxContainer} from "../../style/ConstantStyle";
 
 function SearchResultsPage(props) {
     return (
         <>
-            <SearchResultsPageSearchBox>
-                <h1><input placeholder={"검색결과"}/>에 대한 검색결과</h1>
-            </SearchResultsPageSearchBox>
+            <SearchBoxContainer>
+                <input className={"search-input"} placeholder={"검색창"}/>
+                <span className={"search-icon"}/>
+            </SearchBoxContainer>
             <SearchResultsPageContainer>
                 <SearchResultsContentsContainer>
                     <SearchResultContent>
